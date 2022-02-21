@@ -1,0 +1,14 @@
+.bottomBanner .carousel-inner {
+  width: 100%;
+}
+
+.bottomBanner .carousel-item {
+  width: 100%;
+  height: 200px;
+  background: url('../asset/images/banner_slide1.png') no-repeat right;
+  background-size: contain;
+}
+
+.bottomBanner .carousel-item:nth-child(2) {
+  background-image: url('../asset/images/banner_slide2.png');
+}
