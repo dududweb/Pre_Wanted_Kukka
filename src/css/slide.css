@@ -1,0 +1,91 @@
+.slideContainer {
+  width: 100vw;
+  padding: 0 20px 40px;
+}
+
+.slideTitle {
+  font-size: 22px;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.firstImgBox {
+  width: 350px;
+  height: 218px;
+  background-size: contain;
+  position: relative;
+}
+
+.firstImgBox .firstMetaData {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+.firstMetaData .text {
+  font-size: 14px;
+}
+
+.firstMetaData .linkText {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.itemList {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.itemImg {
+  width: 144px;
+  height: 102px;
+  margin-right: 20px;
+  background-size: contain;
+  float: left;
+  clear: both;
+}
+
+#slideContainerFirstImg {
+  background-image: url(../asset//images/slide1.jpeg);
+}
+#slideContainerScondImg {
+  background-image: url(../asset//images/slide2.jpeg);
+}
+#slideContainerThirdImg {
+  background-image: url(../asset//images/slide3.jpeg);
+}
+
+.itemMeta {
+  font-size: 14px;
+}
+
+.itemName {
+  margin: 10px 0;
+}
+.itemPrice {
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+.tagListContents {
+  display: inline-block;
+}
+
+.tagButton {
+  border: 1px solid blue;
+  border-radius: 50px;
+  margin: 0 4px 2px 0;
+  padding: 2px 8px;
+  font-size: 10px;
+  background: white;
+}

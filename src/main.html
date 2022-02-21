@@ -18,9 +18,13 @@
       $(document).ready(function () {
         $('#nav').load('./views/nav.html');
         $('#mainBanner').load('./views/mainBanner.html'); // 추가 인클루드를 원할 경우 이런식으로 추가하면 된다
+        $('#slide').load('./views/slide.html');
         $('#footer').load('./views/footer.html');
       });
-    </script>
+      </script>
+      
+      <link rel="stylesheet" href="./css/slide.css" />
+
     <title>Kukka</title>
   </head>
   <body>
@@ -33,6 +37,7 @@
     ></script>
     <div id="nav"></div>
     <div id="mainBanner"></div>
+    <div id="slide"><div>
     <div id="footer"></div>
     <button type="button" class="btn btn-primary">Primary</button>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
