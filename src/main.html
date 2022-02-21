@@ -11,6 +11,7 @@
       $(document).ready(function () {
         $('#nav').load('./views/nav.html');
         $('#mainBanner').load('./views/mainBanner.html'); // 추가 인클루드를 원할 경우 이런식으로 추가하면 된다
+        $('#slide').load('./views/slide.html');
         $('#footer').load('./views/footer.html');
         $('#bottomBanner').load('./views/bottomBanner.html');
       });
@@ -23,6 +24,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/mainBanner.css" />
+    <link rel="stylesheet" href="./css/slide.css" />
     <link rel="stylesheet" href="./css/bottomBanner.css" />
     <title>Kukka</title>
   </head>
@@ -35,6 +37,7 @@
     <div id="nav"></div>
     <div id="mainBanner"></div>
     <div id="bottomBanner"></div>
+    <div id="slide"><div>
     <div id="footer"></div>
   </body>
 </html>
