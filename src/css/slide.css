@@ -13,9 +13,15 @@
   font-weight: 700;
 }
 
+/* .firstImgBox {
+  width: 100vw;
+  height: auto;
+  background-size: cover;
+  position: relative;
+} */
 .firstImgBox {
-  width: 350px;
-  height: 218px;
+  width: 100vw;
+  height: auto;
   background-size: contain;
   position: relative;
 }
@@ -50,19 +56,8 @@
   width: 144px;
   height: 102px;
   margin-right: 20px;
-  background-size: contain;
   float: left;
   clear: both;
-}
-
-#slideContainerFirstImg {
-  background-image: url(../asset//images/slide1.jpeg);
-}
-#slideContainerScondImg {
-  background-image: url(../asset//images/slide2.jpeg);
-}
-#slideContainerThirdImg {
-  background-image: url(../asset//images/slide3.jpeg);
 }
 
 .itemMeta {
