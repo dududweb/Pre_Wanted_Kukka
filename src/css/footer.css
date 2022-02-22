@@ -65,7 +65,7 @@ footer dd {
 }
 
 .footerFaq .link {
-  width: 120px;
+  width: 131px;
   display: block;
   height: 36px;
   border: #9b9b9b 1px solid;
@@ -102,7 +102,7 @@ footer dd {
 .footerAbout dd::after {
   position: absolute;
   content: '';
-  top: 3px;
+  top: 7px;
   right: -9px;
   display: block;
   width: 1px;
@@ -212,7 +212,7 @@ footer dd {
   }
 
   .footerAbout > dd::after {
-    top: 4px;
+    top: 6px;
     right: -10px;
     height: 13px;
   }
