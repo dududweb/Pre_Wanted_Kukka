@@ -50,7 +50,7 @@
   background: url('/public/images/banner_slide1.png') no-repeat;
   background-position: center center;
   background-size: cover;
-  transition: all 0.1s ease-out;
+  transition: transform 0.2s ease-out 1s;
 }
 
 .bottomBanner .carousel-inner .carousel-item:nth-child(2) {
@@ -166,11 +166,6 @@
   font-size: 12px;
   font-weight: 300;
   line-height: 20px;
-}
-
-:root {
-  --tabletSize: 768px;
-  --red: red;
 }
 
 @media only screen and (min-width: 1024px) {

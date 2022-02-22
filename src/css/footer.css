@@ -102,7 +102,7 @@ footer dd {
 .footerAbout dd::after {
   position: absolute;
   content: '';
-  top: 3px;
+  top: 7px;
   right: -9px;
   display: block;
   width: 1px;
@@ -207,12 +207,13 @@ footer dd {
   }
 
   .footerAbout > dd {
+    float: left;
     font-size: 14px;
     margin-right: 18px;
   }
 
   .footerAbout > dd::after {
-    top: 4px;
+    top: 6px;
     right: -10px;
     height: 13px;
   }
