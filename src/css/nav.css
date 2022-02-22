@@ -1,9 +1,12 @@
 .navContainer {
   width: 100vw;
   position: relative;
+  overflow: hidden;
 }
 .navWrap {
   width: 100vw;
+  position: fixed;
+  overflow: hidden;
 }
 .navContainer .logo {
   font-size: 25px;
@@ -21,7 +24,7 @@
 .navMenubox {
   width: 100%;
   float: left;
-  position: fixed;
+
   border: 1px solid #f4f4f4;
   padding: 10px 10px;
   text-align: center;
