@@ -35,6 +35,7 @@
 #mainImg {
   width: 100%;
   object-fit: cover;
+  transition: transform 0.35s;
 }
 
 #mainImg:hover {
