@@ -1,13 +1,22 @@
 .bottomBanner {
-  height: 300px;
+  width: 100%;
   padding: 40px 20px 50px;
   background-color: #f4f1f0;
 }
 
-.bottomBanner .title {
+.bottomBanner .tag {
+  position: relative;
+  overflow: hidden;
+}
+
+.bottomBanner .tag .title {
+  float: left;
   font-weight: 700;
   font-size: 22px;
   padding-bottom: 20px;
+}
+.bottomBanner .tag .moreButton {
+  float: right;
 }
 
 .bottomBanner .carousel-indicators {
