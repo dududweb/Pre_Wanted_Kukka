@@ -236,7 +236,7 @@ footer dd {
     position: absolute;
     top: 130px;
     right: 0px;
-    background-image: url('/public/images/logo_black.png');
+    background-image: url('../../public/images/logo_black.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 180px;
