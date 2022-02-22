@@ -1,7 +1,7 @@
 .bottomBanner {
   width: 100%;
   padding: 40px 20px 50px;
-  background-color: #f4f1f0;
+  background-color: #f7f7f7;
 }
 
 .bottomBanner .tag {
@@ -47,22 +47,24 @@
   width: 100%;
   height: 180px;
   background: url('/public/images/banner_slide1.png') no-repeat;
-  background-position: right bottom;
-  background-size: contain;
+  background-position: center center;
+  background-size: cover;
+  transition: all 0.1s ease-out;
 }
 
 .bottomBanner .carousel-inner .carousel-item:nth-child(2) {
   width: 100%;
   height: 180px;
   background: url('/public/images/banner_slide2.png') no-repeat;
-  background-position: right bottom;
-  background-size: contain;
+  background-position: center center;
+  background-size: cover;
 }
 
 .bottomBanner .bottomBannerPcInner {
   width: 100%;
   height: 200px;
   overflow: hidden;
+  display: none;
 }
 
 .bottomBanner .bottomBannerPcInner .bottomBannerPcItem {
@@ -71,7 +73,7 @@
   width: 50%;
   height: 100%;
   background: url('/public/images/banner_slide_w.png') no-repeat;
-  background-position: right bottom;
+  background-position: center center;
   background-size: cover;
 }
 
@@ -80,12 +82,13 @@
   width: 50%;
   height: 100%;
   background: url('/public/images/banner_slide2_w.png') no-repeat;
-  background-position: right bottom;
+  background-position: center center;
   background-size: cover;
 }
 
 .bottomBanner .bottomBannerPcInner .bottomBannerPcItem .bottomBannerPcContents {
   position: absolute;
+  width: 300px;
   top: 17%;
   transform: translateX(-50%);
   left: 50%;
@@ -141,6 +144,7 @@
 .bottomBanner .carousel-item .carouselContents .carouselContentsInfo {
   font-size: 12px;
   font-weight: 300;
+  line-height: 20px;
 }
 
 :root {
@@ -150,6 +154,22 @@
 
 @media only screen and (min-width: 1024px) {
   .bottomBanner {
-    background-color: antiquewhite;
+    padding: 0;
+  }
+
+  .bottomBanner .tag {
+    display: none;
+  }
+
+  .bottomBanner .carousel-inner {
+    display: none;
+  }
+
+  .bottomBanner .bottomBannerPcInner {
+    display: block;
+  }
+
+  .bottomBanner .carousel-indicators {
+    display: none;
   }
 }
