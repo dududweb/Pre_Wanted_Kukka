@@ -1,143 +1,133 @@
-@media screen and (max-width: 1026px) {
-  .navContainer {
-    width: 100vw;
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 80px;
-  }
-
-  .navWrap {
-    background-color: white;
-    width: 100vw;
-    position: fixed;
-    z-index: 999;
-    overflow: hidden;
-  }
-
-  .images {
-    display: inline-block;
-    background-image: url('/public/images/모이기.png');
-    background-size: 626px 422.5px;
-    width: 167px;
-    height: 22px;
-    background-position: -383px -219px;
-    margin-top: 15px;
-    margin-left: 20px;
-  }
-
-  .navContainer .logo {
-    font-size: 25px;
-    float: left;
-    margin-right: 10px;
-  }
-
-  .logobox {
-    /* position: fixed;
-  z-index: 999; */
-  }
-
-  .logobox .logotext {
-    /* position: absolute;
-  top: 18px;
-  left: 100px; */
-    padding-top: 15px;
-    font-size: 3px;
-  }
-
-  .navMenubox {
-    width: 100%;
-    float: left;
-    font-weight: 400;
-    border: 1px solid #f4f4f4;
-    padding: 10px 10px;
-    text-align: center;
-    color: #787878;
-  }
-
-  .navMenubox .subscribe {
-    float: left;
-    width: 25%;
-    font-size: 13px;
-  }
-
-  .navMenubox .flower {
-    float: left;
-    width: 25%;
-    font-size: 13px;
-  }
-
-  .navMenubox .delivery {
-    float: left;
-    width: 25%;
-    font-size: 13px;
-  }
-
-  .navMenubox .flowerClass {
-    float: left;
-    font-size: 13px;
-    width: 25%;
-  }
-
-  .navBottombox {
-    background-color: white;
-    width: 100%;
-    float: left;
-    position: fixed;
-    bottom: 0;
-    text-align: center;
-    padding-top: 5px;
-  }
-
-  .catagorybox {
-    float: left;
-    width: 25%;
-    color: #787878;
-  }
-
-  .catagorybox .catagory {
-    font-size: 12px;
-  }
-
-  .eventBox {
-    float: left;
-    width: 25%;
-    color: #787878;
-  }
-
-  .eventBox .event {
-    font-size: 12px;
-  }
-
-  .userBox {
-    float: left;
-    color: #787878;
-    width: 25%;
-  }
-
-  .userBox .userkuka {
-    font-size: 12px;
-  }
-
-  .shoppingbox {
-    float: left;
-    width: 25%;
-    color: #787878;
-  }
-
-  .shoppingbox .shoppingCart {
-    font-size: 12px;
-  }
-
-  .navHeader {
-    display: none;
-  }
-
-  .navMainHeader {
-    display: none;
-  }
+.navContainer {
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 80px;
 }
 
-@media screen and (min-width: 1026px) {
+.navWrap {
+  background-color: white;
+  width: 100vw;
+  position: fixed;
+  z-index: 999;
+  overflow: hidden;
+}
+
+.images {
+  display: inline-block;
+  background-image: url('/public/images/모이기.png');
+  background-size: 626px 422.5px;
+  width: 167px;
+  height: 22px;
+  background-position: -383px -219px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.navContainer .logo {
+  font-size: 25px;
+  float: left;
+  margin-right: 10px;
+}
+
+.logobox .logotext {
+  padding-top: 15px;
+  font-size: 3px;
+}
+
+.navMenubox {
+  width: 100%;
+  float: left;
+  font-weight: 400;
+  border: 1px solid #f4f4f4;
+  padding: 10px 10px;
+  text-align: center;
+  color: #787878;
+}
+
+.navMenubox .subscribe {
+  float: left;
+  width: 25%;
+  font-size: 13px;
+}
+
+.navMenubox .flower {
+  float: left;
+  width: 25%;
+  font-size: 13px;
+}
+
+.navMenubox .delivery {
+  float: left;
+  width: 25%;
+  font-size: 13px;
+}
+
+.navMenubox .flowerClass {
+  float: left;
+  font-size: 13px;
+  width: 25%;
+}
+
+.navBottombox {
+  background-color: white;
+  width: 100%;
+  float: left;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.catagorybox {
+  float: left;
+  width: 25%;
+  color: #787878;
+}
+
+.catagorybox .catagory {
+  font-size: 12px;
+}
+
+.eventBox {
+  float: left;
+  width: 25%;
+  color: #787878;
+}
+
+.eventBox .event {
+  font-size: 12px;
+}
+
+.userBox {
+  float: left;
+  color: #787878;
+  width: 25%;
+}
+
+.userBox .userkuka {
+  font-size: 12px;
+}
+
+.shoppingbox {
+  float: left;
+  width: 25%;
+  color: #787878;
+}
+
+.shoppingbox .shoppingCart {
+  font-size: 12px;
+}
+
+.navHeader {
+  display: none;
+}
+
+.navMainHeader {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
   .navMenubox {
     display: none;
   }
@@ -150,16 +140,25 @@
     display: none;
   }
 
+  .navHeaderWrap {
+    display: block;
+    cursor: pointer;
+  }
+
   .navHeader {
+    display: block;
     overflow: hidden;
     text-align: center;
-    width: 1120px;
+    width: 100%;
     max-width: 1120px;
     line-height: 20px;
     margin: 0 auto;
+    padding-right: 10px;
+    padding-top: 20px;
   }
 
   .navList {
+    display: block;
     float: right;
     font-size: 14px;
     font-weight: 300;
@@ -190,10 +189,12 @@
   }
 
   .navMainHeader {
-    width: 1120px;
+    display: block;
+    width: 100%;
     max-width: 1120px;
     overflow: hidden;
     margin: 0 auto;
+    margin-bottom: 20px;
   }
 
   .navMainMenu {
@@ -201,20 +202,21 @@
     text-align: center;
     width: 100%;
     font-weight: bold;
-    overflow: hidden;
+    padding-right: 10px;
   }
 
   .navMainHeader img {
     width: 135px;
     height: 51px;
     float: left;
+    margin-left: -10px;
   }
 
   .meunLists {
     float: left;
     text-align: center;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 38px;
     font-weight: 300;
     color: #222222;
     font-size: 18px;
@@ -228,12 +230,16 @@
   }
 
   .navHeaderList {
-    width: 25%;
+    width: 20%;
     float: left;
   }
 
   .navHeaderList:nth-child(2) {
-    width: 50%;
+    width: 70%;
+    float: left;
+  }
+  .navHeaderList:nth-child(3) {
+    width: 10%;
     float: left;
   }
 }
