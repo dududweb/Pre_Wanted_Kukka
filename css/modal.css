@@ -1,0 +1,57 @@
+.modalContainer {
+  display: block;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.modalWrapper {
+  position: absolute;
+  top: calc(50% - 150px);
+  left: calc(50% - 172.5px);
+}
+
+.modalWrapper .inner {
+  width: 300px;
+  height: 345px;
+  background: #fff;
+}
+
+.closeWrapper .blind {
+  display: none;
+}
+
+.modalWrapper .closeWrapper {
+  width: 300px;
+  height: 34px;
+  background: #1c1c1c;
+  position: relative;
+}
+
+.modalWrapper .inner #image {
+  width: 100%;
+}
+
+.closeWrapper .todayClose {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 140px;
+  height: 30px;
+  background-image: url('/public/images/modal_todayClose.png');
+  background-size: cover;
+}
+
+.closeWrapper .close {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 70px;
+  height: 30px;
+  background-image: url('/public/images/modal_close.png');
+  background-size: cover;
+}
