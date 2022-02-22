@@ -47,7 +47,7 @@
   position: relative;
   width: 100%;
   height: 180px;
-  background: url('../../public/images/banner_slide1.png') no-repeat;
+  background: url("/public/images/banner_slide1.png") no-repeat;
   background-position: center center;
   background-size: cover;
   transition: transform 0.13s;
@@ -56,7 +56,7 @@
 .bottomBanner .carousel-inner .carousel-item:nth-child(2) {
   width: 100%;
   height: 180px;
-  background: url('../../public/images/banner_slide2.png') no-repeat;
+  background: url("/public/images/banner_slide2.png") no-repeat;
   background-position: center center;
   background-size: cover;
 }
@@ -79,7 +79,7 @@
 .bottomBanner .bottomBannerPcInner .bannerPcImage {
   width: 100%;
   height: 100%;
-  background: url('../../public/images/banner_slide_w.png') no-repeat;
+  background: url("/public/images/banner_slide_w.png") no-repeat;
   background-position: center center;
   background-size: cover;
   transition: transform 0.35s;
@@ -98,7 +98,7 @@
   .bannerPcImage {
   width: 100%;
   height: 100%;
-  background: url('../../public/images/banner_slide2_w.png') no-repeat;
+  background: url("/public/images/banner_slide2_w.png") no-repeat;
   background-position: center center;
   background-size: cover;
 }

@@ -15,7 +15,7 @@
 
 .images {
   display: inline-block;
-  background-image: url('../images/모이기.png');
+  background-image: url("/public/images/모이기.png");
   background-size: 626px 422.5px;
   width: 167px;
   height: 22px;
