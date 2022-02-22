@@ -10,13 +10,14 @@
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/91524565/155207833-a5b0df62-c59e-4065-b9f9-db09460c1967.gif)
 
 
-### 태블릿
+### 태블릿, 데스크탑
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/91524565/155208256-61cc3827-536c-4b08-a87f-b63ed1c5a25f.gif)
 
 <br/>
 
 ## 배포 링크
 
-<a href="https://nostalgic-wilson-ae40e3.netlify.app/">배포 링크</a>
+<a href="https://laughing-lichterman-f5ec3e.netlify.app/">배포 링크</a>
 
 ## 개발 인원 및 기간
 
