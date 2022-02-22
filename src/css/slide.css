@@ -1,5 +1,5 @@
 .slideContainer {
-  width: 100vw;
+  width: 100%;
   max-width: 1120px;
   padding: 0 20px 40px;
   margin: 80px auto;
@@ -33,7 +33,7 @@
 }
 
 #mainImg {
-  width: 100vw;
+  width: 100%;
   object-fit: cover;
 }
 
