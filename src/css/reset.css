@@ -109,9 +109,13 @@ ul {
 }
 
 a {
-  color: inherit;
+  color: inherit !important;
   text-decoration: none;
 }
+a:hover {
+  text-decoration: none;
+}
+
 blockquote,
 q {
   quotes: none;

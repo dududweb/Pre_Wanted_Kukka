@@ -17,9 +17,9 @@
   position: relative;
 }
 
-/* .disabled {
+.disabled {
   display: none;
-} */
+}
 
 .mainItemImg {
   width: 100%;
