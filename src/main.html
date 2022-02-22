@@ -21,6 +21,7 @@
     <script src="./js/respond.js"></script>
     <script src="./js/html5shiv.js"></script>
     <script src="./js/slide.js"></script>
+    <script src="./js/modal.js"></script>
     <script type="text/javascript">
       $(document).ready(function () {
         $('#nav').load('./views/nav.html');
@@ -28,10 +29,9 @@
         $('#slide').load('./views/slide.html');
         $('#footer').load('./views/footer.html');
         $('#bottomBanner').load('./views/bottomBanner.html');
+        $('#modal').load('./views/modal.html');
       });
     </script>
-    <link rel="stylesheet" href="./css/slide.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -45,6 +45,8 @@
     <link rel="stylesheet" href="./css/mainBanner.css" />
     <link rel="stylesheet" href="./css/slide.css" />
     <link rel="stylesheet" href="./css/bottomBanner.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/modal.css" />
     <title>Kukka</title>
   </head>
   <body>
@@ -53,10 +55,10 @@
       integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
       crossorigin="anonymous"
     ></script>
+    <div id="modal"></div>
     <div id="nav"></div>
     <div class="clearBoth"></div>
     <div id="mainBanner"></div>
-
     <button type="button" class="btn btn-primary">Primary</button>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
