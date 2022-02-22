@@ -66,6 +66,7 @@
 }
 
 .bottomBanner .bottomBannerPcInner .bottomBannerPcItem {
+  position: relative;
   float: left;
   width: 50%;
   height: 100%;
@@ -75,12 +76,53 @@
 }
 
 .bottomBanner .bottomBannerPcInner .bottomBannerPcItem:nth-child(2) {
-  float: left;
+  position: relative;
   width: 50%;
   height: 100%;
   background: url('/public/images/banner_slide2_w.png') no-repeat;
   background-position: right bottom;
   background-size: cover;
+}
+
+.bottomBanner .bottomBannerPcInner .bottomBannerPcItem .bottomBannerPcContents {
+  position: absolute;
+  top: 17%;
+  transform: translateX(-50%);
+  left: 50%;
+  text-align: center;
+}
+
+.bottomBanner
+  .bottomBannerPcInner
+  .bottomBannerPcItem
+  .bottomBannerPcContents
+  .bottomBannerPcContentsTitle {
+  font-size: 20px;
+  line-height: 31px;
+  font-weight: 700;
+  letter-spacing: -0.33px;
+  color: #222;
+}
+
+.bottomBanner
+  .bottomBannerPcInner
+  .bottomBannerPcItem
+  .bottomBannerPcContents
+  .bottomBannerPcContentsInfo {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 300;
+  letter-spacing: -0.21px;
+  color: #222;
+}
+.bottomBanner
+  .bottomBannerPcInner
+  .bottomBannerPcItem
+  .bottomBannerPcContents
+  .buttonBanner {
+  width: 180px;
+  height: 34px;
+  margin-top: 20px;
 }
 
 .bottomBanner .carousel-item .carouselContents {
@@ -106,8 +148,8 @@
   --red: red;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .bottomBanner {
-    background-color: var(--red);
+    background-color: antiquewhite;
   }
 }
