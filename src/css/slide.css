@@ -2,7 +2,7 @@
   width: 100vw;
   max-width: 1120px;
   padding: 0 20px 40px;
-  margin: 0 auto;
+  margin: 80px auto;
   position: relative;
 }
 
@@ -94,12 +94,9 @@
   vertical-align: middle;
 }
 
-.item {
-}
-
 .underLine {
   border-top: 1px solid lightgray;
-  margin: 20px 0;
+  margin: 50px 0 24px;
 }
 
 .itemImg {
@@ -163,8 +160,8 @@
     padding-left: 10px;
   }
   .itemImg {
-    max-width: 236px;
-    max-height: 167px;
+    width: 236px;
+    height: 169px;
   }
   .itemName {
     font-size: 16px;
@@ -184,5 +181,9 @@
   .preButton {
     left: -60px;
     background: rgba(227, 227, 227, 0.208);
+  }
+  .underLine {
+    border-top: 1px solid lightgray;
+    margin: 92px 0 26px;
   }
 }
