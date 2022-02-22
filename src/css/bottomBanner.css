@@ -72,22 +72,23 @@
   float: left;
   width: 50%;
   height: 100%;
-  /* background: url('/public/images/banner_slide_w.png') no-repeat; */
+  background: url('/public/images/banner_slide_w.png') no-repeat;
   background-position: center center;
   background-size: cover;
   overflow: hidden;
 }
 
-.bottomBanner .bottomBannerPcInner .bottomBannerPcItem::before {
+.bottomBanner .bottomBannerPcInner .bottomBannerPcItem:hover {
   content: '';
+  display: block;
   background: url('/public/images/banner_slide_w.png') no-repeat;
   background-size: cover;
-  opacity: 0.5;
   position: absolute;
   top: 0px;
   left: 0px;
   right: 0px;
   bottom: 0px;
+  transform: scale(1.1);
 }
 
 .bottomBanner .bottomBannerPcInner .bottomBannerPcItem:nth-child(2) {
@@ -100,9 +101,17 @@
   overflow: hidden;
 }
 
-.bottomBanner .bottomBannerPcInner .bottomBannerPcItem:hover {
+.bottomBanner .bottomBannerPcInner .bottomBannerPcItem:nth-child(2):hover {
+  content: '';
+  background: url('/public/images/banner_slide2_w.png') no-repeat;
+  display: block;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
   transform: scale(1.1);
-  transition: all 0.5s;
 }
 
 .bottomBanner .bottomBannerPcInner .bottomBannerPcItem .bottomBannerPcContents {
