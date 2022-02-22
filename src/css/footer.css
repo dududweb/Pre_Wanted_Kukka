@@ -3,19 +3,13 @@
   background: #222;
 }
 
-.footerInner {
-  width: auto;
-  margin: 0 20px;
-  padding: 50px 0;
-}
-
 .footerConainer a,
 a:hover {
   text-decoration: none;
   color: #fff;
 }
 
-dd {
+footer dd {
   margin: 0;
 }
 
@@ -26,6 +20,12 @@ dd {
 
 .only-pc {
   display: none;
+}
+
+.footerInner {
+  width: auto;
+  margin: 0 20px;
+  padding: 50px 0;
 }
 
 .footerContact {
@@ -43,15 +43,13 @@ dd {
 .footerContact .phoneNumber {
   font-size: 18px;
   line-height: 27px;
-  font-weight: 300;
 }
 
 .footerContact .time {
   margin-top: 5px;
   color: #9b9b9b;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 18px;
-  font-weight: 300;
 }
 
 .footerContact .alliance {
@@ -97,6 +95,7 @@ dd {
 .footerAbout dd {
   float: left;
   position: relative;
+  line-height: 25px;
   margin-right: 14px;
 }
 
@@ -141,11 +140,26 @@ dd {
     padding: 0 60px;
   }
 
+  .footerWrapper {
+    max-width: 1120px;
+    position: relative;
+    margin: 0 auto;
+  }
+
   .footerInner {
     max-width: 1120px;
-
     padding: 80px 0;
-    margin: 0 auto;
+    margin: 0;
+  }
+
+  .footerInner::before {
+    content: '';
+    position: absolute;
+    top: 235px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #444;
   }
 
   .fa-brands {
@@ -164,7 +178,6 @@ dd {
 
   .footerContact .phoneNumber {
     float: left;
-    /* display: block; */
     font-size: 22px;
   }
 
@@ -177,39 +190,22 @@ dd {
     padding: 40px 0 0 0;
   }
 
-  .footerAbout {
-    margin-top: 20px;
-    padding-bottom: 20px;
-  }
-
   .footerFaq {
     display: inline-block;
     margin-left: 17px;
-    /* margin-top: 30px; */
   }
 
   .footerFaq .link {
     float: left;
-    /* margin-top: 30px; */
   }
 
   .footerAbout {
     float: left;
     border: none;
-    position: relative;
+    margin-top: 20px;
+    padding-bottom: 20px;
   }
 
-  .footerAbout::before {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100%;
-    top: 20px;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background: #fff;
-  }
   .footerAbout > dd {
     font-size: 14px;
     margin-right: 18px;
@@ -231,5 +227,18 @@ dd {
 
   .only-pc {
     display: block;
+  }
+}
+
+@media (min-width: 1140px) {
+  .footerAbout .logo {
+    position: absolute;
+    top: 130px;
+    right: 0px;
+    background-image: url('/public/images/logo_black.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 90px;
   }
 }
