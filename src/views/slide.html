@@ -6,21 +6,9 @@
 
   <div class="firstImgBox">
     <img
-      class="mainItemImg"
-      id="mainFirstImg"
+      class="mainItemImg_1"
+      id="mainImg"
       src="/public/images/slide1.jpeg"
-      alt="img"
-    />
-    <img
-      class="mainItemImg disabled"
-      id="mainSecondImg"
-      src="/public/images/slide2.jpeg"
-      alt="img"
-    />
-    <img
-      class="mainItemImg disabled"
-      id="mainThirdImg"
-      src="/public/images/slide3.jpeg"
       alt="img"
     />
     <div class="firstMetaData">
@@ -32,7 +20,6 @@
         alt="icon"
       />
     </div>
-
     <button class="nextButton">
       <img src="/public/icon/iconmonstr-arrow-25.svg" alt="next" />
     </button>
@@ -44,13 +31,17 @@
       />
     </button>
   </div>
-
   <ul class="itemList">
     <li class="item">
-      <img class="itemImg" src="/public/images/slide2.jpeg" alt="img" />
+      <img
+        class="itemImg"
+        id="secondItemImg"
+        src="/public/images/slide2.jpeg"
+        alt="img"
+      />
       <div class="itemMeta">
-        <div class="itemName">오아시스 리스(2/21~2/27)</div>
-        <div class="itemPrice">79,000원</div>
+        <div class="itemName" id="secondItemName">오아시스 리스(2/21~2/27)</div>
+        <div class="itemPrice" id="secondItemPrice">79,000원</div>
         <ul>
           <li class="tagListContents">
             <button class="tagButton">광화문</button>
@@ -70,15 +61,22 @@
           <li class="tagListContents">
             <button class="tagButton">부산동래점</button>
           </li>
+          <!-- <div class="underLine"></div> -->
         </ul>
       </div>
     </li>
-
     <li class="item">
-      <img class="itemImg" src="/public/images/slide3.jpeg" alt="img" />
+      <img
+        class="itemImg"
+        id="thirdItemImg"
+        src="/public/images/slide3.jpeg"
+        alt="img"
+      />
       <div class="itemMeta">
-        <div class="itemName">오아시스 리스(2/21~2/27)</div>
-        <div class="itemPrice">79,000원</div>
+        <div class="itemName" id="thirdItemName">
+          클래식 핸드타이드(2/28~3/6)
+        </div>
+        <div class="itemPrice" id="thirdItemPrice">82,000원</div>
         <ul>
           <li class="tagListContents">
             <button class="tagButton">광화문</button>
@@ -103,3 +101,5 @@
     </li>
   </ul>
 </section>
+
+<script src="./js/slide.js"></script>
