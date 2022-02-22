@@ -34,8 +34,8 @@
             <span class="meunLists">꽃 정기구독</span>
             <span class="meunLists">꽃다발</span>
             <span class="meunLists">당일배송</span>
-            <span class="meunLists">플라워클래스</span>
-            <span class="meunLists">동영상</span>
+            <span class="meunLists" id="flowerclass">플라워클래스</span>
+            <span class="meunLists" id="video">동영상</span>
             <span class="meunLists">이벤트</span>
           </div>
           <div class="navHeaderList" style="text-align: right">
@@ -82,3 +82,17 @@
     </div>
   </div>
 </div>
+
+<script>
+  $(document).ready(function () {
+    $('#flowerclass').click(function () {
+      $(window).scrollTop(650);
+    });
+  });
+
+  $(document).ready(function () {
+    $('#video').click(function () {
+      $(window).scrollTop(100);
+    });
+  });
+</script>
