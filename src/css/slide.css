@@ -1,6 +1,9 @@
 .slideContainer {
   width: 100vw;
+  max-width: 1120px;
   padding: 0 20px 40px;
+  margin: 0 auto;
+  position: relative;
 }
 
 .slideTitle {
@@ -21,8 +24,22 @@
   display: none;
 }
 
-.mainItemImg {
-  width: 100%;
+.hide {
+  display: none;
+}
+
+.scale {
+  overflow: hidden;
+}
+
+#mainImg {
+  width: 100vw;
+  object-fit: cover;
+}
+
+#mainImg:hover {
+  transform: scale(1.05);
+  transition: transform 0.35s;
 }
 
 .firstImgBox .firstMetaData {
@@ -33,6 +50,7 @@
 
 .firstMetaData .text {
   font-size: 14px;
+  margin-bottom: 6px;
 }
 
 .firstMetaData .linkText {
@@ -73,14 +91,15 @@
 }
 
 .itemList {
-  list-style: none;
-  padding: 0;
+  vertical-align: middle;
 }
 
 .item {
-  margin-top: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid lightgray;
+}
+
+.underLine {
+  border-top: 1px solid lightgray;
+  margin: 20px 0;
 }
 
 .itemImg {
@@ -88,16 +107,17 @@
   height: 102px;
   margin-right: 20px;
   float: left;
-  clear: both;
 }
 
 .itemMeta {
   font-size: 14px;
+  padding-bottom: 106px;
 }
 
 .itemName {
-  margin: 10px 0;
+  font-weight: 500;
 }
+
 .itemPrice {
   margin: 10px 0;
   font-weight: 500;
@@ -105,13 +125,64 @@
 
 .tagListContents {
   display: inline-block;
-}
-
-.tagButton {
   border: 1px solid blue;
   border-radius: 50px;
-  margin: 0 4px 2px 0;
-  padding: 2px 8px;
+  margin: 0 4px 6px 0;
+  padding: 4px 8px;
   font-size: 10px;
   background: white;
+}
+@media (min-width: 1024px) {
+  .slideContainer {
+    height: 488px;
+  }
+  .slideTitle {
+    font-size: 30px;
+  }
+  .firstMetaData .text {
+    font-size: 18px;
+  }
+  .firstMetaData .linkText {
+    font-size: 25px;
+  }
+  .firstMetaData .arrowIcon {
+    width: 11px;
+    height: 19px;
+  }
+  #mainImg {
+    width: 48vw;
+    max-width: 536px;
+    height: 392px;
+  }
+  .firstImgBox {
+    float: left;
+  }
+  .itemList {
+    width: 50%;
+    float: right;
+    padding-left: 10px;
+  }
+  .itemImg {
+    max-width: 236px;
+    max-height: 167px;
+  }
+  .itemName {
+    font-size: 16px;
+  }
+
+  .itemPrice {
+    font-size: 14px;
+  }
+  .itemMeta {
+    width: 50%;
+  }
+  .nextButton {
+    right: -660px;
+    background: rgba(227, 227, 227, 0.208);
+  }
+
+  .preButton {
+    left: -60px;
+    background: rgba(227, 227, 227, 0.208);
+  }
 }
