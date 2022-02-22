@@ -7,12 +7,11 @@
 <br/>
 
 ### 모바일
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/91524565/155207833-a5b0df62-c59e-4065-b9f9-db09460c1967.gif)
 
-![image](https://user-images.githubusercontent.com/91524565/155207394-94c00e81-b14f-4f89-9a5f-25e9c9f6e43a.png)
 
 ### 태블릿
 
-![image](https://user-images.githubusercontent.com/91524565/155206818-9e52a08f-5ee2-4d98-a338-39bdf52e285d.png)
 <br/>
 
 ## 배포 링크
