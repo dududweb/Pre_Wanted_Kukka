@@ -207,6 +207,7 @@ footer dd {
   }
 
   .footerAbout > dd {
+    float: left;
     font-size: 14px;
     margin-right: 18px;
   }
