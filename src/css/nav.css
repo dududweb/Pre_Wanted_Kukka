@@ -5,6 +5,7 @@
     overflow: hidden;
     margin-bottom: 80px;
   }
+
   .navWrap {
     background-color: white;
     width: 100vw;
@@ -12,6 +13,7 @@
     z-index: 999;
     overflow: hidden;
   }
+
   .images {
     display: inline-block;
     background-image: url('/public/images/모이기.png');
@@ -22,23 +24,26 @@
     margin-top: 15px;
     margin-left: 20px;
   }
+
   .navContainer .logo {
     font-size: 25px;
     float: left;
     margin-right: 10px;
   }
+
   .logobox {
     /* position: fixed;
   z-index: 999; */
   }
+
   .logobox .logotext {
     /* position: absolute;
   top: 18px;
   left: 100px; */
-
     padding-top: 15px;
     font-size: 3px;
   }
+
   .navMenubox {
     width: 100%;
     float: left;
@@ -48,26 +53,31 @@
     text-align: center;
     color: #787878;
   }
+
   .navMenubox .subscribe {
     float: left;
     width: 25%;
     font-size: 13px;
   }
+
   .navMenubox .flower {
     float: left;
     width: 25%;
     font-size: 13px;
   }
+
   .navMenubox .delivery {
     float: left;
     width: 25%;
     font-size: 13px;
   }
+
   .navMenubox .flowerClass {
     float: left;
     font-size: 13px;
     width: 25%;
   }
+
   .navBottombox {
     background-color: white;
     width: 100%;
@@ -77,45 +87,57 @@
     text-align: center;
     padding-top: 5px;
   }
+
   .catagorybox {
     float: left;
     width: 25%;
   }
+
   .catagorybox .catagory {
     font-size: 12px;
   }
+
   .eventBox {
     float: left;
     width: 25%;
   }
+
   .eventBox .event {
     font-size: 12px;
   }
+
   .userBox {
     float: left;
     width: 25%;
   }
+
   .userBox .userkuka {
     font-size: 12px;
   }
+
   .shoppingbox {
     float: left;
     width: 25%;
   }
+
   .shoppingbox .shoppingCart {
     font-size: 12px;
   }
+
   .navHeader {
     display: none;
   }
+
   .navMainHeader {
     display: none;
   }
 }
+
 @media screen and (min-width: 1026px) {
   .navMenubox {
     display: none;
   }
+
   .navBottombox {
     display: none;
   }
@@ -123,43 +145,47 @@
   .logobox {
     display: none;
   }
+
   .navHeader {
     overflow: hidden;
     text-align: center;
     width: 100%;
     line-height: 20px;
   }
+
   .navList {
     float: right;
     padding-right: 40px;
     padding-left: 150px;
   }
+
   .List .login {
     border-right: 1px solid #b3b3b3;
     padding-right: 15px;
     font-weight: 600;
   }
+
   .List .register {
     padding: 0px 15px 0px 15px;
     border-right: 1px solid #b3b3b3;
     font-weight: 600;
   }
+
   .List .customerCenter {
     padding: 0px 15px 0px 15px;
     border-right: 1px solid #b3b3b3;
     font-weight: 600;
   }
+
   .userpoint {
     color: #46cfa7;
   }
+
   .company {
     margin-right: 150px;
     font-weight: 600;
   }
-  .navWrap {
-  }
-  .navHeaderWrap {
-  }
+
   .navMainHeader {
     width: 1240px;
     max-width: 1240px;
@@ -174,6 +200,7 @@
     font-weight: bold;
     overflow: hidden;
   }
+
   .navMainHeader img {
     width: 135px;
     height: 51px;
