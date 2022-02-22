@@ -168,11 +168,6 @@
   line-height: 20px;
 }
 
-:root {
-  --tabletSize: 768px;
-  --red: red;
-}
-
 @media only screen and (min-width: 1024px) {
   .bottomBanner {
     padding: 0;

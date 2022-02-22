@@ -1,9 +1,12 @@
+.videoContainer {
+  width: 100%;
+  padding: 0 20px;
+}
+
 .videoWrap {
-  width: 100vw;
   max-width: 1120px;
   margin: 50px auto;
   position: relative;
-  padding: 30px 20px 0;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
@@ -21,7 +24,7 @@ embed {
 
 @media only screen and (min-width: 1024px) {
   .videoWrap {
-    padding-bottom: 27%;
+    padding-bottom: 35%;
   }
 }
 @media only screen and (min-width: 768px) {
