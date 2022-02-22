@@ -3,6 +3,7 @@
   max-width: 1120px;
   padding: 0 20px 40px;
   margin: 0 auto;
+  position: relative;
 }
 
 .slideTitle {
@@ -27,8 +28,18 @@
   display: none;
 }
 
+.scale {
+  overflow: hidden;
+}
+
 #mainImg {
-  width: 100%;
+  width: 100vw;
+  object-fit: cover;
+}
+
+#mainImg:hover {
+  transform: scale(1.05);
+  transition: transform 0.35s;
 }
 
 .firstImgBox .firstMetaData {
@@ -139,10 +150,9 @@
     height: 19px;
   }
   #mainImg {
-    min-width: 432px;
-    min-height: 332px;
+    width: 48vw;
     max-width: 536px;
-    max-height: 392px;
+    height: 392px;
   }
   .firstImgBox {
     float: left;
@@ -150,6 +160,7 @@
   .itemList {
     width: 50%;
     float: right;
+    padding-left: 10px;
   }
   .itemImg {
     max-width: 236px;
@@ -164,5 +175,14 @@
   }
   .itemMeta {
     width: 50%;
+  }
+  .nextButton {
+    right: -660px;
+    background: rgba(227, 227, 227, 0.208);
+  }
+
+  .preButton {
+    left: -60px;
+    background: rgba(227, 227, 227, 0.208);
   }
 }

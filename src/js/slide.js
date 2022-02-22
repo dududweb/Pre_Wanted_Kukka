@@ -3,6 +3,7 @@ $('.nextButton').click(function () {
     $('#mainImg').removeClass('mainItemImg_1');
     $('#mainImg').addClass('mainItemImg_2');
     $('#mainImg').attr('src', '/public/images/slide2.jpeg');
+    $('.link').attr('href', 'https://www.google.co.kr/');
 
     $('#secondItemImg').attr('src', '/public/images/slide3.jpeg');
     $('#thirdItemImg').attr('src', '/public/images/slide1.jpeg');
@@ -19,6 +20,7 @@ $('.nextButton').click(function () {
     $('#mainImg').removeClass('mainItemImg_2');
     $('#mainImg').addClass('mainItemImg_3');
     $('#mainImg').attr('src', '/public/images/slide3.jpeg');
+    $('.link').attr('href', 'https://https://www.daum.net/');
 
     $('#secondItemImg').attr('src', '/public/images/slide1.jpeg');
     $('#thirdItemImg').attr('src', '/public/images/slide2.jpeg');
@@ -35,6 +37,7 @@ $('.nextButton').click(function () {
     $('#mainImg').removeClass('mainItemImg_3');
     $('#mainImg').addClass('mainItemImg_1');
     $('#mainImg').attr('src', '/public/images/slide1.jpeg');
+    $('.link').attr('href', 'https://www.naver.com/');
 
     $('#secondItemImg').attr('src', '/public/images/slide2.jpeg');
     $('#thirdItemImg').attr('src', '/public/images/slide3.jpeg');
