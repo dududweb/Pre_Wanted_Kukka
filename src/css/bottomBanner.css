@@ -4,6 +4,21 @@
   background-color: #f4f1f0;
 }
 
+.bottomBanner .carousel-indicators {
+  bottom: -45px;
+}
+
+.bottomBanner .carousel-indicators .active {
+  background-color: #f5ca5f;
+}
+
+.bottomBanner .carousel-indicators li {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #e4e4e4;
+}
+
 .bottomBanner .carousel-inner {
   width: 100%;
 }
