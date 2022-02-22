@@ -78,16 +78,11 @@
   overflow: hidden;
 }
 
-.bottomBanner .bottomBannerPcInner .bottomBannerPcItem:hover {
-  content: '';
-  display: block;
+.bannerPcimage {
   background: url('/public/images/banner_slide_w.png') no-repeat;
   background-size: cover;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
+}
+.bannerPcimage:hover {
   transform: scale(1.1);
 }
 
@@ -99,19 +94,6 @@
   background-position: center center;
   background-size: cover;
   overflow: hidden;
-}
-
-.bottomBanner .bottomBannerPcInner .bottomBannerPcItem:nth-child(2):hover {
-  content: '';
-  background: url('/public/images/banner_slide2_w.png') no-repeat;
-  display: block;
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  transform: scale(1.1);
 }
 
 .bottomBanner .bottomBannerPcInner .bottomBannerPcItem .bottomBannerPcContents {
