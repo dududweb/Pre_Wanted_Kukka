@@ -133,6 +133,8 @@
 @media (min-width: 1024px) {
   .slideContainer {
     height: 488px;
+    padding-left: 0;
+    padding-right: 0;
   }
   .slideTitle {
     font-size: 30px;
@@ -175,7 +177,7 @@
     width: 50%;
   }
   .nextButton {
-    right: -660px;
+    right: -700px;
     background: rgba(227, 227, 227, 0.208);
   }
 
