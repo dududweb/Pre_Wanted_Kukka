@@ -104,3 +104,28 @@ $('.preButton').click(function () {
     $('#thirdItemPrice').text('73,000원');
   }
 });
+
+$(".tagListContents:contains('광화문점')").css({
+  'border-color': '#b194e4',
+  color: '#b194e4',
+});
+$(".tagListContents:contains('장실점')").css({
+  'border-color': '#76d9b9',
+  color: '#76d9b9',
+});
+$(".tagListContents:contains('월계점')").css({
+  'border-color': '#ffa85f',
+  color: '#ffa85f',
+});
+$(".tagListContents:contains('구로점')").css({
+  'border-color': '#8ab7fe',
+  color: '#8ab7fe',
+});
+$(".tagListContents:contains('송파점')").css({
+  'border-color': '#ffd560',
+  color: '#ffd560',
+});
+$(".tagListContents:contains('부산동래점')").css({
+  'border-color': '#28b2e5',
+  color: '#28b2e5',
+});
