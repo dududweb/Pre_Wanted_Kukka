@@ -2,6 +2,7 @@
   width: 100%;
   padding: 40px 20px 50px;
   background-color: #f7f7f7;
+  zoom: 1;
 }
 
 .bottomBanner .tag {
@@ -62,7 +63,7 @@
 
 .bottomBanner .bottomBannerPcInner {
   width: 100%;
-  height: 200px;
+  height: 250px;
   overflow: hidden;
   display: none;
 }
@@ -71,6 +72,12 @@
   position: relative;
   float: left;
   width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.bottomBanner .bottomBannerPcInner .bannerPcImage {
+  width: 100%;
   height: 100%;
   background: url('/public/images/banner_slide_w.png') no-repeat;
   background-position: center center;
@@ -81,9 +88,23 @@
   position: relative;
   width: 50%;
   height: 100%;
+  overflow: hidden;
+}
+
+.bottomBanner
+  .bottomBannerPcInner
+  .bottomBannerPcItem:nth-child(2)
+  .bannerPcImage {
+  width: 100%;
+  height: 100%;
   background: url('/public/images/banner_slide2_w.png') no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+.bottomBanner .bottomBannerPcInner .bottomBannerPcItem .bannerPcImage:hover {
+  transform: scale(1.05);
+  transition: transform 0.35s ease-out 0s;
 }
 
 .bottomBanner .bottomBannerPcInner .bottomBannerPcItem .bottomBannerPcContents {
