@@ -47,7 +47,7 @@
   .navMenubox {
     width: 100%;
     float: left;
-
+    font-weight: 400;
     border: 1px solid #f4f4f4;
     padding: 10px 10px;
     text-align: center;
@@ -91,6 +91,7 @@
   .catagorybox {
     float: left;
     width: 25%;
+    color: #787878;
   }
 
   .catagorybox .catagory {
@@ -100,6 +101,7 @@
   .eventBox {
     float: left;
     width: 25%;
+    color: #787878;
   }
 
   .eventBox .event {
@@ -108,6 +110,7 @@
 
   .userBox {
     float: left;
+    color: #787878;
     width: 25%;
   }
 
@@ -118,6 +121,7 @@
   .shoppingbox {
     float: left;
     width: 25%;
+    color: #787878;
   }
 
   .shoppingbox .shoppingCart {
@@ -155,26 +159,25 @@
 
   .navList {
     float: right;
+    font-size: 14px;
     padding-right: 40px;
     padding-left: 150px;
+    font-weight: 300;
   }
 
   .List .login {
     border-right: 1px solid #b3b3b3;
     padding-right: 15px;
-    font-weight: 600;
   }
 
   .List .register {
     padding: 0px 15px 0px 15px;
     border-right: 1px solid #b3b3b3;
-    font-weight: 600;
   }
 
   .List .customerCenter {
     padding: 0px 15px 0px 15px;
     border-right: 1px solid #b3b3b3;
-    font-weight: 600;
   }
 
   .userpoint {
@@ -183,12 +186,13 @@
 
   .company {
     margin-right: 150px;
-    font-weight: 600;
+    margin-left: 10px;
+    font-weight: 400;
   }
 
   .navMainHeader {
-    width: 1240px;
-    max-width: 1240px;
+    width: 1120px;
+    max-width: 1120px;
     overflow: hidden;
     margin: 0 auto;
   }
@@ -209,10 +213,19 @@
 
   .meunLists {
     float: left;
-    font-size: 15px;
     text-align: center;
     margin-top: 20px;
-    padding-left: 40px;
+    margin-left: 20px;
+    font-weight: 300;
+    color: #222222;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+
+  .meunLists:hover {
+    border-bottom: 4px solid #ffc847;
   }
 
   .navHeaderList {
