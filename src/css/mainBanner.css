@@ -1,16 +1,17 @@
 .videoWrap {
   width: 100vw;
   max-width: 1120px;
+  margin: 50px auto;
   position: relative;
-  padding: 0 20px;
+  padding: 30px 20px 0;
   padding-bottom: 56.25%;
-  /* padding-top: 30px; */
   height: 0;
   overflow: hidden;
-  margin: 50px auto;
 }
 
-.videoWrap iframe {
+.videoWrap iframe,
+object,
+embed {
   position: absolute;
   top: 0;
   left: 0;
@@ -19,6 +20,9 @@
 }
 
 @media only screen and (min-width: 1024px) {
+  .videoWrap {
+    padding-bottom: 27%;
+  }
 }
 @media only screen and (min-width: 768px) {
 }
