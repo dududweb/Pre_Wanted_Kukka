@@ -1,0 +1,88 @@
+.navContainer {
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+.navWrap {
+  width: 100vw;
+  position: fixed;
+  overflow: hidden;
+}
+.navContainer .logo {
+  font-size: 25px;
+  float: left;
+  margin-right: 10px;
+}
+
+.logobox .logotext {
+  /* position: absolute;
+  top: 18px;
+  left: 100px; */
+  padding-top: 15px;
+  font-size: 3px;
+}
+.navMenubox {
+  width: 100%;
+  float: left;
+
+  border: 1px solid #f4f4f4;
+  padding: 10px 10px;
+  text-align: center;
+  color: #787878;
+}
+.navMenubox .subscribe {
+  float: left;
+  width: 25%;
+  font-size: 13px;
+}
+.navMenubox .flower {
+  float: left;
+  width: 25%;
+  font-size: 13px;
+}
+.navMenubox .delivery {
+  float: left;
+  width: 25%;
+  font-size: 13px;
+}
+.navMenubox .flowerClass {
+  float: left;
+  font-size: 13px;
+  width: 25%;
+}
+.navBottombox {
+  width: 100%;
+  float: left;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  padding-top: 5px;
+}
+.catagorybox {
+  float: left;
+  width: 25%;
+}
+.catagorybox .catagory {
+  font-size: 12px;
+}
+.eventBox {
+  float: left;
+  width: 25%;
+}
+.eventBox .event {
+  font-size: 12px;
+}
+.userBox {
+  float: left;
+  width: 25%;
+}
+.userBox .userkuka {
+  font-size: 12px;
+}
+.shoppingbox {
+  float: left;
+  width: 25%;
+}
+.shoppingbox .shoppingCart {
+  font-size: 12px;
+}
