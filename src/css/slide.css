@@ -13,23 +13,22 @@
   font-weight: 700;
 }
 
-/* .firstImgBox {
-  width: 100vw;
-  height: auto;
-  background-size: cover;
-  position: relative;
-} */
 .firstImgBox {
-  width: 100vw;
-  height: auto;
-  background-size: contain;
   position: relative;
+}
+
+.disabled {
+  display: none;
+}
+
+.mainItemImg {
+  width: 100%;
 }
 
 .firstImgBox .firstMetaData {
   position: absolute;
-  left: 10px;
-  bottom: 10px;
+  left: 20px;
+  bottom: 20px;
 }
 
 .firstMetaData .text {
@@ -39,6 +38,38 @@
 .firstMetaData .linkText {
   font-size: 16px;
   font-weight: 700;
+}
+
+.firstMetaData .arrowIcon {
+  width: 6px;
+  height: 10px;
+}
+
+.nextButton {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  border-style: none;
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.517);
+}
+
+.preButton {
+  position: absolute;
+  top: 50%;
+  left: 60px;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  border-style: none;
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.517);
+}
+.preButtonIcon {
+  transform: rotate(180deg);
 }
 
 .itemList {
