@@ -50,7 +50,7 @@
   background: url('/public/images/banner_slide1.png') no-repeat;
   background-position: center center;
   background-size: cover;
-  transition: transform 0.2s ease-out 1s;
+  transition: transform 0.35s;
 }
 
 .bottomBanner .carousel-inner .carousel-item:nth-child(2) {
@@ -104,7 +104,7 @@
 
 .bottomBanner .bottomBannerPcInner .bottomBannerPcItem .bannerPcImage:hover {
   transform: scale(1.05);
-  transition: transform 0.35s ease-out 0s;
+  transition: transform 0.35s;
 }
 
 .bottomBanner .bottomBannerPcInner .bottomBannerPcItem .bottomBannerPcContents {
