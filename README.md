@@ -14,7 +14,7 @@
 
 ## 배포 링크
 
-<a href="https://www.notion.so/ea455d7f370b46559de2e34dc7495bb5#6eb215e5508644c5b52e5d34e84729dd">배포 링크</a>
+<a href="https://laughing-lichterman-f5ec3e.netlify.app/">배포 링크</a>
 
 ## 개발 인원 및 기간
 
